@@ -1,7 +1,7 @@
 [project]
 name = "randq"
 version = "0.1.0"
-description = "Add your description here"
+description = "This CLI draws a name and question repeatedly until the user choose to stop"
 readme = "README.md"
 authors = [
     { name = "Yun Zhou", email = "yun.zhou@mcmaster.ca" }
@@ -10,7 +10,7 @@ requires-python = ">=3.13"
 dependencies = []
 
 [project.scripts]
-randq = "randq:main"
+randq = "randq.cli:main"
 
 [build-system]
 requires = ["uv_build>=0.12.7,<0.13.0"]
